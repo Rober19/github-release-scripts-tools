@@ -1,0 +1,6 @@
+{
+	"token":"ExampleToken",
+	"body": "[![Downloads](https://img.shields.io/github/last-commit/google/skia.svg)](https://github.com/Rober19/estructura-de-datos) [![Travis](https://travis-ci.com/doze-group/DeployManager.svg?branch=master)](https://travis-ci.com/doze-group/DeployManager) [![Build Status](https://dev.azure.com/doze-group/Pipelines_test/_apis/build/status/doze-group.DeployManager?branchName=master)](https://dev.azure.com/doze-group/Pipelines_test/_build/latest?definitionId=1?branchName=master)\r\n\r\nPlease this is a test file setup `Example.Setup.msi`",
+	"file_names":["../DeployManager.Setup/Debug/DeployManager.Setup.msi"],
+	"github_repo":"git@github.com:doze-group/DeployManager.git"	
+}
