@@ -1,25 +1,6 @@
 #!/bin/bash
 
-# sumas: $((2+2)) //=> 4
 
-#
-# se necesita git, npm, jq
-# debes estar en la carpeta unos archivos: package.json & data_to_release.json
-
-# parameters example: sh git-release.sh "1.0.1" "text123"
-# version=$1 //=> 1.0.1
-# text=$2 //=> text123
-#
-# or
-#
-# funct1() 
-# {
-# var=$1
-#   echo $var
-# }
-#
-# funct1 "hola" //=> hola
-#
 
 # jq debe estár instalado para esto, recomiendo usar `scoop install jq`
 

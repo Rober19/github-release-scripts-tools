@@ -1,29 +1,20 @@
-# Foobar
+# github-release-scripts-tools
 
-Foobar is a Python library for dealing with word pluralization.
+`github-release-scripts-tools` son un conjunto de herramientas para hacer la `release` de tu proyecto en `Github` facil y comodamente
 
-## Installation
+## Paquetes necesarios
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Yo recomiendo para windows [scoop](https://scoop.sh/) package manager.
+claramente necesitaremos [GIT](https://git-scm.com/).
 
+Tambien [jq](https://stedolan.github.io/jq/) para procesar los  `.json` & [npm](https://www.npmjs.com/get-npm) para aumentar la version `INDIVIDUAL` de la release (recomiendo que sea así).
 ```bash
-pip install foobar
+scoop install jq
+scoop install nodejs-lts
 ```
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+![](images/image1.png?raw=true "")
+## data_to_release.json
+## NEW release
+## DELETE release
+## EDIT release
