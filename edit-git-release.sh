@@ -56,7 +56,7 @@ echo''
 echo "========== find here ==========="  
 echo "https://api.github.com/repos/$user/$repo/releases"
 echo "Insert release ID:"
-read id
+read -r id
 echo "================================"  
 
 echo ''
@@ -109,14 +109,14 @@ then
     execAllRelease 
   echo ''
   echo '=================================='
-  read -n 1 -p "Press any key to continue..."
+  read -r 1 -p "Press any key to continue..."
     exit 0
 else
   echo ''
     echo "$db_file not found"
     echo ''
     echo '=================================='
-    read -n 1 -p "Press any key to continue..."
+    read -r 1 -p "Press any key to continue..."
     exit 0
 fi
 

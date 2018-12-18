@@ -1,5 +1,7 @@
 # github-release-scripts-tools
 
+[![CodeFactor](https://www.codefactor.io/repository/github/rober19/github-release-scripts-tools/badge/master)](https://www.codefactor.io/repository/github/rober19/github-release-scripts-tools/overview/master)
+
 `github-release-scripts-tools` are a set of tools to do the `release` of your `Github` project easily and comfortably
 
 ## Paquetes necesarios
