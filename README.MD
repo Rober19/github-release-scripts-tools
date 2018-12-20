@@ -4,7 +4,7 @@
 
 `github-release-scripts-tools` are a set of tools to do the `release` of your `Github` project easily and comfortably
 
-## Paquetes necesarios
+## Required packages
 
 I recommend for windows [scoop](https://scoop.sh/) package manager.
 clearly we need [GIT](https://git-scm.com/).
